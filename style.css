@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px 80px;
+}
+
+.container-top-bottom {
+    padding: 30px 0;
+}
+
+header {
+    height: 750px;
+    background-color: #000000;
+    position: relative;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+}
+
+.nav .nav-link {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav .nav-link-btn a {
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 40%;
+    background-color: #707070;
+}
+
+.box {
+    height: 700px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text-container {
+    line-height: 90px;
+}
+
+.ui-ux {
+    background: url(./images/UI\ UX.png);
+    background-position: center;
+}
+
+.text-container h1{
+    font-size: 50px;
+}
+
+.text-container h2{
+    font-size: 38px;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+.text-container p{
+    font-size: 23px;
+    line-height: 60px;
+}
+
+a.start-register-btn {
+    color: #ffffff;
+    padding: 15px 60px;
+    width: 391;
+    height: 72;
+    border-radius: 10px;
+    background-color: #F46632;
+    font-size: 24px;
+}
+
+
+/*main*/
+
+.main-box {
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    height: 550px;
+    margin-top: 350px;
+    display: flex;
+}
+
+.product-factory-image {
+    transform: translate(50px, -200px);
+}
+
+.flex-right {
+    margin-top: 80px;
+    margin-left: 140px;
+    
+}
+
+.about h3 {
+    font-size: 30px;
+}
+
+.text-container-2 {
+    margin-top: 250px;
+    margin-left: -900px;
+    height: 250px;
+    overflow-y: hidden;
+}
+
+.text-container-2 p {
+    
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.course-experience {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    height: 700px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.exp-image {
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.courses {
+    text-align: center;
+}
+
+.course-product-factory {
+    margin-top: 60px;
+}
+
+.center img{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.master {
+    height: 850px;
+    display: flex;
+    align-content: center;
+    background-image: linear-gradient(#fff 50%, rgb(0, 0, 0, 0.03) 50%);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.master img {
+    width: 100%;
+    display: block;
+}
